@@ -4,7 +4,7 @@ class CreateFriends < ActiveRecord::Migration[6.1]
       t.string :nama_depan
       t.string :nama_belakang
       t.string :email
-      t.string :phone
+      t.string :telepon
       t.string :twitter
 
       t.timestamps
